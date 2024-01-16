@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Set a high z-index to ensure it stays on top of other elements */
+  background-color: #fff; /* Set the background color of your header */
+  padding: 10px; /* Adjust padding according to your design */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
